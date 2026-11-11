@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maquette - Gestion des biens</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">🏢 Patrimoine</div>
+      <nav class="nav">
+        <a href="dashboard.html">Tableau de bord</a>
+        <a class="active" href="assets.html">Biens</a>
+        <a href="users.html">Utilisateurs</a>
+        <a href="login.html">Déconnexion</a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <div class="topbar">
+        <h2>Gestion des biens</h2>
+        <button class="primary">+ Nouveau bien</button>
+      </div>
+
+      <div class="card">
+        <form class="form-grid">
+          <input type="text" placeholder="Nom du bien" value="Appartement Paris" />
+          <input type="text" placeholder="Catégorie" value="Immobilier" />
+          <input type="number" placeholder="Valeur" value="250000" />
+          <select>
+            <option>Actif</option>
+            <option>Maintenance</option>
+            <option>Vendu</option>
+          </select>
+          <button class="primary" type="button">Enregistrer</button>
+        </form>
+      </div>
+
+      <div class="card">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Bien</th>
+              <th>Catégorie</th>
+              <th>Valeur</th>
+              <th>Propriétaire</th>
+              <th>Statut</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Appartement Paris</td>
+              <td>Immobilier</td>
+              <td>250 000 €</td>
+              <td>Jean Dupont</td>
+              <td><span class="tag ok">Actif</span></td>
+            </tr>
+            <tr>
+              <td>Actions Tech</td>
+              <td>Finance</td>
+              <td>45 000 €</td>
+              <td>Marie Martin</td>
+              <td><span class="tag ok">Actif</span></td>
+            </tr>
+            <tr>
+              <td>Voiture</td>
+              <td>Véhicule</td>
+              <td>18 000 €</td>
+              <td>Jean Dupont</td>
+              <td><span class="tag warn">Maintenance</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

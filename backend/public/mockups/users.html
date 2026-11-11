@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maquette - Gestion des utilisateurs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">🏢 Patrimoine</div>
+      <nav class="nav">
+        <a href="dashboard.html">Tableau de bord</a>
+        <a href="assets.html">Biens</a>
+        <a class="active" href="users.html">Utilisateurs</a>
+        <a href="login.html">Déconnexion</a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <div class="topbar">
+        <h2>Utilisateurs</h2>
+        <button class="primary">+ Nouvel utilisateur</button>
+      </div>
+
+      <div class="card">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Nom</th>
+              <th>Email</th>
+              <th>Rôle</th>
+              <th>Statut</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Jean Dupont</td>
+              <td>jean.dupont@email.com</td>
+              <td>Gestionnaire</td>
+              <td><span class="tag ok">Actif</span></td>
+            </tr>
+            <tr>
+              <td>Marie Martin</td>
+              <td>marie.martin@email.com</td>
+              <td>Administrateur</td>
+              <td><span class="tag ok">Actif</span></td>
+            </tr>
+            <tr>
+              <td>Paul Bernard</td>
+              <td>paul.bernard@email.com</td>
+              <td>Analyste</td>
+              <td><span class="tag warn">En attente</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+  </div>
+</body>
+</html>

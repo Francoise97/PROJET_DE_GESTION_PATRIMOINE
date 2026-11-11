@@ -38,6 +38,17 @@ Mot de passe : `patrimoine`
 - historique des transactions
 - tableau de bord des valeurs
 
+## Maquettes UI
+
+Les maquettes de conception sont disponibles dans le dossier :
+
+- `backend/public/mockups/login.html`
+- `backend/public/mockups/dashboard.html`
+- `backend/public/mockups/assets.html`
+- `backend/public/mockups/users.html`
+
+Ces pages sont des maquettes statiques de l’interface utilisateur, utiles pour la présentation visuelle du projet et pour la conception Figma.
+
 ## Prochaine étape recommandée
 
 Migrer ce squelette vers Laravel pour obtenir une architecture backend plus complète, plus proche du sujet du projet.

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maquette - Tableau de bord</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">🏢 Patrimoine</div>
+      <nav class="nav">
+        <a class="active" href="dashboard.html">Tableau de bord</a>
+        <a href="assets.html">Biens</a>
+        <a href="users.html">Utilisateurs</a>
+        <a href="login.html">Déconnexion</a>
+      </nav>
+    </aside>
+
+    <main class="main">
+      <div class="topbar">
+        <div class="search">Recherche ...</div>
+        <div class="user-badge">Jean Dupont</div>
+      </div>
+
+      <div class="summary-grid">
+        <div class="card stat-card">
+          <div class="label">Biens total</div>
+          <div class="value">128</div>
+          <div class="trend">+12% ce mois</div>
+        </div>
+        <div class="card stat-card">
+          <div class="label">Valeur totale</div>
+          <div class="value">3,4 M€</div>
+          <div class="trend">+8% ce mois</div>
+        </div>
+        <div class="card stat-card">
+          <div class="label">Transactions</div>
+          <div class="value">42</div>
+          <div class="trend">+5 ce semaine</div>
+        </div>
+        <div class="card stat-card">
+          <div class="label">Alertes</div>
+          <div class="value">04</div>
+          <div class="trend">2 prioritaires</div>
+        </div>
+      </div>
+
+      <div class="content-grid">
+        <div class="card">
+          <h2>Actifs récents</h2>
+          <table class="table">
+            <thead>
+              <tr>
+                <th>Nom</th>
+                <th>Catégorie</th>
+                <th>Valeur</th>
+                <th>Statut</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Appartement Paris</td>
+                <td>Immobilier</td>
+                <td>250 000 €</td>
+                <td><span class="tag ok">Actif</span></td>
+              </tr>
+              <tr>
+                <td>Actions Tech</td>
+                <td>Finance</td>
+                <td>45 000 €</td>
+                <td><span class="tag ok">Actif</span></td>
+              </tr>
+              <tr>
+                <td>Voiture</td>
+                <td>Véhicule</td>
+                <td>18 000 €</td>
+                <td><span class="tag warn">Maintenance</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card">
+          <h2>Rappel</h2>
+          <p><strong>Révision des actifs</strong><br> 3 biens à contrôler avant vendredi.</p>
+          <p><strong>Échéances</strong><br> 2 dossiers financiers à finaliser.</p>
+          <p><strong>État global</strong><br> Portefeuille sain et stable.</p>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
