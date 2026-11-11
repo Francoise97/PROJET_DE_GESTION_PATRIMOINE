@@ -1,0 +1,26 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: patrimoine_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: patrimoine
+      POSTGRES_USER: patrimoine
+      POSTGRES_PASSWORD: patrimoine
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/database/schema.sql:/docker-entrypoint-initdb.d/schema.sql:ro
+
+  adminer:
+    image: adminer:latest
+    container_name: patrimoine_adminer
+    restart: unless-stopped
+    depends_on:
+      - postgres
+    ports:
+      - "8080:8080"
+
+volumes:
+  postgres_data:
