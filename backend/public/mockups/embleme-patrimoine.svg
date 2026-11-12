@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Emblème illustratif aux couleurs du Togo</title>
+  <defs>
+    <clipPath id="shield">
+      <path d="M48 8 77 19v24c0 19-11.8 34.5-29 43C30.8 77.5 19 62 19 43V19L48 8Z"/>
+    </clipPath>
+  </defs>
+  <path d="M48 5 80 17v26c0 21-13 38-32 47C29 81 16 64 16 43V17L48 5Z" fill="#fff" stroke="#006A4E" stroke-width="4"/>
+  <g clip-path="url(#shield)">
+    <path d="M18 10h60v15H18z" fill="#006A4E"/>
+    <path d="M18 25h60v15H18z" fill="#FFCE00"/>
+    <path d="M18 40h60v15H18z" fill="#006A4E"/>
+    <path d="M18 55h60v15H18z" fill="#FFCE00"/>
+    <path d="M18 70h60v18H18z" fill="#006A4E"/>
+    <path d="M18 10h25v30H18z" fill="#D21034"/>
+    <path d="m30.5 15 2.9 6h6.6l-5.3 4.1 2 6.4-6.2-3.8-6.2 3.8 2-6.4-5.3-4.1h6.6l2.9-6Z" fill="#fff"/>
+  </g>
+</svg>

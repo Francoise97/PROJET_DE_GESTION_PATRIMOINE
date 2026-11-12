@@ -42,12 +42,14 @@ Mot de passe : `patrimoine`
 
 Les maquettes de conception sont disponibles dans le dossier :
 
+- `backend/public/mockups/accueil.html` : page d'accueil du portail
 - `backend/public/mockups/login.html`
 - `backend/public/mockups/dashboard.html`
 - `backend/public/mockups/assets.html`
 - `backend/public/mockups/users.html`
+- `backend/public/mockups/classique.html` et `backend/public/mockups/premium.html` : deux variantes visuelles
 
-Ces pages sont des maquettes statiques de l’interface utilisateur, utiles pour la présentation visuelle du projet et pour la conception Figma.
+Ces pages sont des maquettes statiques de l’interface utilisateur, utiles pour la présentation visuelle du projet et pour la conception Figma. L'emblème `backend/public/mockups/embleme-patrimoine.svg` est une création illustrative aux couleurs du Togo et ne constitue pas un logo officiel de l'État ou d'une administration.
 
 ## Prochaine étape recommandée
 
